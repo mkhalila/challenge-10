@@ -1,5 +1,8 @@
 // TODO: implement romanToInteger in here
-int romanCharToInt(char & romanChar) {
+#include <string>
+using std::string;
+
+int romanCharToInt(const char & romanChar) {
 	if (romanChar == 'M') return 1000;
 	if (romanChar == 'D') return 500;
 	if (romanChar == 'C') return 100;
