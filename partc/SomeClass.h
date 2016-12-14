@@ -13,6 +13,7 @@ public:
     int getX() const;
 
     // TODO: add some code here
+    void printItOut() const;
 
 
 };
